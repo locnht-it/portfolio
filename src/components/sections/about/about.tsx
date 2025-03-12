@@ -10,8 +10,6 @@ import { SOCIAL_MEDIA_DATA } from "@/helpers/data";
 import { CONTACT_LOTTIE } from "@/assets/lottie/string/contact";
 import { useTranslation } from "react-i18next";
 
-type TLanguage = "vi" | "en";
-
 const About = () => {
   const { i18n } = useTranslation();
 

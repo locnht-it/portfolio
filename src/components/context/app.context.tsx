@@ -15,8 +15,9 @@ export const AppContextProvider = ({
   children: React.ReactNode;
 }) => {
   const [theme, setTheme] = useState<ThemeContextType>(() => {
-    const initialTheme = (localStorage?.getItem("theme") ??
-      "dark") as ThemeContextType;
+    const initialTheme =
+      (localStorage?.getItem("theme") as ThemeContextType) || "dark";
+    document.documentElement.setAttribute("data-bs-theme", initialTheme);
     return initialTheme;
   });
 
