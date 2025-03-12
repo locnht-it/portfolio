@@ -109,6 +109,6 @@ export const PROJECTS = [
       en: "This is a Portfolio building project based on React and Vite technology, written in Typescript. The project uses many prominent libraries to create professional interfaces such as Bootstrap, i18next, Lottie, React Fast Marquee, React Parallax Tilt, Typewriter Effect for React.",
     },
     githubLink: "https://github.com/locnht-it/portfolio",
-    demoLink: "https://portfolio-loc-ngo-huynh-tan.vercel.app/",
+    demoLink: "https://www.locnht.cloud/",
   },
 ];
