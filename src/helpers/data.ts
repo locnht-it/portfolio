@@ -1,3 +1,6 @@
+import portfolioImg from "assets/project/portfolio.png";
+import reactUltimateImg from "assets/project/react-ultimate.png";
+
 export const SOCIAL_MEDIA_DATA = {
   GITHUB_URL: "https://github.com/locnht-it",
   EMAIL_ADDRESS: "locngohuynhtan@gmail.com",
@@ -76,4 +79,36 @@ export const SKILLS_DATA = [
   "Figma",
   "Canva",
   "Firebase",
+];
+
+export const PROJECTS = [
+  {
+    id: 1,
+    imgPath: reactUltimateImg,
+    title: {
+      vi: "Ứng dụng web Quản lý sách với ReactJS và Vite",
+      en: "Book Management with ReactJS and Vite",
+    },
+    description: {
+      vi: "Đây là một dự án xây dựng một ứng dụng web Quản lý sách dựa trên công nghệ React và Vite, viết bằng Javascript. Dự án sử dụng Ant Design (antd) để làm giao diện chuyên nghiệp (UI - UX) và tối ưu hóa re-render với Uncontrolled Component.",
+      en: "This is a project to build a Book Management web application based on React and Vite technology, written in Javascript. The project uses Ant Design (antd) to make a professional interface (UI - UX) and optimizes re-render with Uncontrolled Component.",
+    },
+    githubLink:
+      "https://github.com/locnht-it/book-management-with-reactjs-and-vite",
+    demoLink: "https://book-management-with-reactjs-and-vite.vercel.app/",
+  },
+  {
+    id: 2,
+    imgPath: portfolioImg,
+    title: {
+      vi: "Portfolio",
+      en: "Portfolio",
+    },
+    description: {
+      vi: "Đây là một dự án xây dựng Portfolio dựa trên công nghệ React và Vite, viết bằng Typescript. Dự án sử dụng nhiều thư viện nổi bật để làm giao diện chuyên nghiệp như Bootstrap, i18next, Lottie, React Fast Marquee, React Parallax Tilt, Typewriter Effect for React.",
+      en: "This is a Portfolio building project based on React and Vite technology, written in Typescript. The project uses many prominent libraries to create professional interfaces such as Bootstrap, i18next, Lottie, React Fast Marquee, React Parallax Tilt, Typewriter Effect for React.",
+    },
+    githubLink: "https://github.com/locnht-it/portfolio",
+    demoLink: "",
+  },
 ];
