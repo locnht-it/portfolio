@@ -1,0 +1,27 @@
+{
+  "appHeader": {
+    "brand": "Loc Ngo-Huynh-Tan",
+    "home": "Home",
+    "project": "Project",
+    "about": "About"
+  },
+  "heroSection": {
+    "exp": "My Skills",
+    "cv": "Get Resume"
+  },
+  "introSection": {
+    "about": "About me",
+    "and": "and",
+    "heading1": "I was fascinated by code as a teenager and it inspired me to study software engineering 🤷‍♂️.",
+    "heading2": "I am fluent in classics like",
+    "heading3": "My field of Interest's are building new",
+    "heading4": "Web Application and Mobile Application",
+    "heading5": "Whenever possible, I immerse myself in developing products with"
+  },
+  "experience": {
+    "title": "Experiences"
+  },
+  "skill": {
+    "title": "Skills"
+  }
+}

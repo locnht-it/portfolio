@@ -1,0 +1,27 @@
+{
+  "appHeader": {
+    "brand": "Ngô Huỳnh Tấn Lộc",
+    "home": "Trang chủ",
+    "project": "Dự án",
+    "about": "Về bản thân"
+  },
+  "heroSection": {
+    "exp": "Kinh nghiệm",
+    "cv": "Tải Resume"
+  },
+  "introSection": {
+    "about": "Giới thiệu",
+    "and": "và",
+    "heading1": "Tôi đã bị cuốn hút bởi các dòng code từ thời niên thiếu và nó đã truyền cảm hứng cho tôi theo đuổi ngành kỹ thuật phần mềm 🤷‍♂️.",
+    "heading2": "Tôi thông thạo các ngôn ngữ huyền thoại như là",
+    "heading3": "Lĩnh vực tôi quan tâm là",
+    "heading4": "xây dựng các ứng dụng Web và ứng dụng Mobile",
+    "heading5": "Bất cứ khi nào có thể, tôi đắm mình vào việc phát triển sản phẩm với"
+  },
+  "experience": {
+    "title": "Kinh nghiệm"
+  },
+  "skill": {
+    "title": "Kỹ năng"
+  }
+}
